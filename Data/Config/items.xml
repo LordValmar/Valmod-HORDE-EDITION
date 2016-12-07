@@ -2042,8 +2042,7 @@ which does not exist, yet. -->
 	<property name="DropMeshfile" value="Items/Misc/arrow_dropped" />
 	<property name="HandMeshfile" value="Items/Misc/arrow_hand" />
 	<property name="HoldType" value="32" />
-	<property name="Material" value="feather" />
-	<property name="Weight" value="1" />
+	<property name="Material" value="wood" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
 	<property name="FuelValue" value="8" />
 	<property name="EconomicValue" value="12" />
@@ -2081,8 +2080,7 @@ which does not exist, yet. -->
 	<property name="DropMeshfile" value="Items/Misc/arrow_dropped" />
 	<property name="HandMeshfile" value="Items/Misc/arrow_hand" />
 	<property name="HoldType" value="32" />
-	<property name="Material" value="feather" />
-	<property name="Weight" value="1" />
+	<property name="Material" value="metal" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
 	<property name="FuelValue" value="8" />
 	<property name="EconomicValue" value="25" />
@@ -2120,8 +2118,7 @@ which does not exist, yet. -->
 	<property name="DropMeshfile" value="Items/Misc/arrow_dropped" />
 	<property name="HandMeshfile" value="Items/Misc/arrow_hand" />
 	<property name="HoldType" value="32" />
-	<property name="Material" value="feather" />
-	<property name="Weight" value="1" />
+	<property name="Material" value="metal" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
 	<property name="FuelValue" value="8" />
 	<property name="EconomicValue" value="53" />
@@ -2159,8 +2156,7 @@ which does not exist, yet. -->
 	<property name="DropMeshfile" value="Items/Misc/arrow_flaming_dropped" />
 	<property name="HandMeshfile" value="Items/Misc/arrow_flaming_hand" />
 	<property name="HoldType" value="32" />
-	<property name="Material" value="feather" />
-	<property name="Weight" value="1" />
+	<property name="Material" value="metal" />
 	<property name="UsableUnderwater" value="false" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
 	<property name="FuelValue" value="12" />
@@ -2169,8 +2165,9 @@ which does not exist, yet. -->
 		<property name="Class" value="Projectile" />
 		<property name="Explosion.ParticleIndex" value="0" />
 		<!-- no expl. -->
-		<property name="Velocity" value="75" />
-		<property name="FlyTime" value="0.15" />
+		<property name="Velocity" value="55"/>
+		<property name="FlyTime" value="0"/>
+		<property name="Gravity" value="-6"/>
 		<property name="LifeTime" value="12" />
 		<property name="DamageBonus.head" value="120" />
 		<property name="DamageBonus.body" value="0.3" />
@@ -2229,8 +2226,7 @@ which does not exist, yet. -->
 	<property name="DropMeshfile" value="Items/Misc/crossbow_bolt_droppedPrefab" />
 	<property name="HandMeshfile" value="Items/Misc/crossbow_bolt_handPrefab" />
 	<property name="HoldType" value="32" />
-	<property name="Material" value="feather" />
-	<property name="Weight" value="1" />
+	<property name="Material" value="metal" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
 	<property name="FuelValue" value="8" />
 	<property name="EconomicValue" value="25" />
@@ -2241,8 +2237,9 @@ which does not exist, yet. -->
 		<property name="Buff_chance" value="0.5" />
 		<property name="Explosion.ParticleIndex" value="0" /> <!-- no expl. -->
 		<property name="Velocity" value="80" />
-		<property name="FlyTime" value=".25" />
-		<property name="LifeTime" value="17" />
+		<property name="FlyTime" value="0" />
+		<property name="Gravity" value="-4"/>
+		<property name="LifeTime" value="12" />
 		<property name="DamageBonus.head" value="120" />
 		<property name="DamageBonus.body" value="0.3" />
 		<property name="DamageBonus.glass" value="25" />
@@ -2266,8 +2263,7 @@ which does not exist, yet. -->
 	<property name="DropMeshfile" value="Items/Misc/crossbow_bolt_dropped_steelPrefab" />
 	<property name="HandMeshfile" value="Items/Misc/crossbow_bolt_hand_steelPrefab" />
 	<property name="HoldType" value="32" />
-	<property name="Material" value="feather" />
-	<property name="Weight" value="1" />
+	<property name="Material" value="metal" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
 	<property name="FuelValue" value="8" />
 	<property name="EconomicValue" value="53" />
@@ -2278,8 +2274,9 @@ which does not exist, yet. -->
 		<property name="Buff_chance" value="0.5" />
 		<property name="Explosion.ParticleIndex" value="0" />
 		<property name="Velocity" value="85" />
-		<property name="FlyTime" value=".25" />
-		<property name="LifeTime" value="17" />
+		<property name="FlyTime" value="0" />
+		<property name="Gravity" value="-4"/>
+		<property name="LifeTime" value="12" />
 		<property name="DamageBonus.head" value="120" />
 		<property name="DamageBonus.body" value="0.3" />
 		<property name="DamageBonus.glass" value="25" />
@@ -2303,8 +2300,7 @@ which does not exist, yet. -->
 	<property name="DropMeshfile" value="Items/Misc/crossbow_bolt_dropped_explosivePrefab" />
 	<property name="HandMeshfile" value="Items/Misc/crossbow_bolt_hand_explosivePrefab" />
 	<property name="HoldType" value="32" />
-	<property name="Material" value="feather" />
-	<property name="Weight" value="1" />
+	<property name="Material" value="metal" />
 	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
 	<property name="FuelValue" value="8" />
 	<property name="EconomicValue" value="90" />
@@ -2315,8 +2311,9 @@ which does not exist, yet. -->
 		<property name="Explosion.ParticleIndex" value="0" />
 		<!-- no expl. -->
 		<property name="Velocity" value="65" />
-		<property name="FlyTime" value=".25" />
-		<property name="LifeTime" value="17" />
+		<property name="FlyTime" value="0" />
+		<property name="Gravity" value="-6"/>
+		<property name="LifeTime" value="12" />
 		<property name="DamageBonus.head" value="120" />
 		<property name="DamageBonus.glass" value="25" />
 		<property name="DamageBonus.wood" value="0.1" />
@@ -8087,8 +8084,7 @@ which does not exist, yet. -->
 
 <item id="1340" name="feather">
 	<property name="Meshfile" value="Items/Crafting/featherPrefab" />
-	<property name="Material" value="feather" />
-	<property name="Weight" value="1" />
+	<property name="Material" value="cloth" />
 	<property name="HoldType" value="21" />
 	<property name="Stacknumber" value="500" /> <!-- STK resource -->
 	<property name="FuelValue" value="1" />
