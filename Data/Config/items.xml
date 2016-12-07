@@ -3341,7 +3341,7 @@ which does not exist, yet. -->
 	<property name="DescriptionKey" value="animalHideClothesGroupDesc"/>
 	<property name="Group" value="Clothing" />
 	<property name="ActionSkillGroup" value="Light Armor"/>
-	<property name="CraftingSkillGroup" value="Leatherworking"/>
+	<property name="CraftingSkillGroup" value="Armor Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 </item>
 
@@ -3428,7 +3428,7 @@ which does not exist, yet. -->
 	<property name="DescriptionKey" value="leatherClothesGroupDesc"/>
 	<property name="Group" value="Clothing" />
 	<property name="ActionSkillGroup" value="Light Armor"/>
-	<property name="CraftingSkillGroup" value="Leatherworking"/>
+	<property name="CraftingSkillGroup" value="Armor Smithing"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 </item>
 
