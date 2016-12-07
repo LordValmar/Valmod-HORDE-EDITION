@@ -1498,7 +1498,7 @@
     </entity_class>
 <entity_class name="Scorched Rusher" extends="zombie01">
 	<property name="LootListOnDeath" value="91" />
-	<property name="HandItem"             value="handBurningRusher" />
+	<property name="HandItem"             value="handBurningZombie" />
 	<property name="Mesh"   value="Zombies/ZombieStandardBurntRagdoll" />
 	<property name="WalkType"  value="7" />
 	<property name="SoundRandom"     value="Enemies/Burnt_Zombie/zombieburntroam" />
