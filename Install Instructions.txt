@@ -1,0 +1,14 @@
+How to Install:
+
+This has to be installed ontop of Valmod Overhaul. Ensure Valmod Overhaul is installed first, then put this on top of it, overwriting when promoted.
+
+The files included in this can be interchangeably. This means you could cherry pick what files to use if you dont want every aspect.
+
+items.xml:
+This file buffs headshot damage and lowers zombie block damage against stone and metal.
+
+spawning.xml
+This file buffs the number of zombies that spawn in biomes and hubs.
+
+entityclasses.xml
+This file disables mutant zombies and disables day-time running, allowing the player to decide to turn off running altogether in the in-game settings. No puking, no climbing, no explosions, no super powers. (Note: Zombie brute, crazed slasher and feral will still be present)

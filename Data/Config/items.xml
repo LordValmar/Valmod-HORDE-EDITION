@@ -970,6 +970,8 @@ Mesh files no longer used:
 		<property name="DamageBlock" value="20" />
 		<property name="Sound_start" value="swoosh" />
 		<property name="DamageBonus.glass" value="25" />
+		<property name="DamageBonus.stone" value="0.5" />
+		<property name="DamageBonus.metal" value="0.4" />
 	</property>
 </item>
 
@@ -1423,6 +1425,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.organic" value=".7" />
 		<property name="DamageBonus.stone" value="0.5" />
 		<property name="ActionExp" value="3" />
+		<property name="ToolCategory.Shovel" value="1" />
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="4,12" />
@@ -1464,6 +1467,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.organic" value=".7" />
 		<property name="DamageBonus.stone" value=".5" />
 		<property name="ActionExp" value="4" />
+		<property name="ToolCategory.Shovel" value="1" />
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="7,15.5" />
@@ -9357,7 +9361,7 @@ which does not exist, yet. -->
 			<property name="Range" value="220" />
 		</property>
 		<property class="Attributes">
-			<property name="EntityDamage" value="3,10" />
+			<property name="EntityDamage" value="5,10" />
 			<property name="DegradationRate" value="1,1" />
 			<property name="DegradationMax" value="50,650" />
 		</property>
@@ -9367,7 +9371,7 @@ which does not exist, yet. -->
 		<property name="RepairTools" value="forgedIron" />
 		<property name="DescriptionKey" value="ironBowDesc"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="3,10" />
+			<property name="EntityDamage" value="5,10" />
 			<property name="DegradationRate" value="1,1" />
 			<property name="DegradationMax" value="100,850" />
 		</property>
