@@ -100,6 +100,26 @@
 	<property name="AITask-6" value="ApproachSpot"/>
 	<property name="AITask-7" value="Wander"/>
 
+	<!--Classes for AITarget:
+		<property name="Class" value="EntityDriveableCar"/>
+		<property name="Class" value="EntityAnimalRabbit"/> and chicken
+		<property name="Class" value="EntityAnimalStag"/>
+		<property name="Class" value="EntityBackpack"/>
+		<property name="Class" value="EntityBandit"/>
+		<property name="Class" value="EntityEnemyAnimal"/>
+		<property name="Class" value="EntityLootContainer"/>
+		<property name="Class" value="EntityMinibike"/>
+		<property name="Class" value="EntityNPC"/>
+		<property name="Class" value="EntityPlayer"/>
+		<property name="Class" value="EntitySupplyCrate"/>
+		<property name="Class" value="EntitySupplyPlane"/>
+		<property name="Class" value="EntitySurvivor"/>
+		<property name="Class" value="EntityVulture"/>
+		<property name="Class" value="EntityZombie"/>
+		<property name="Class" value="EntityZombieCop"/>
+		<property name="Class" value="EntityZombieCrawl"/>
+		<property name="Class" value="EntityZombieDog"/>
+	-->
 	<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityNPC"/>
 	<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityPlayer"/>
 	<property name="AITarget-3" value="BlockingTargetTask"/>
@@ -813,6 +833,7 @@
 	<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense"/>
 	<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep"/>
 	<property name="HandItem" value="handZombieBurning"/>
+	<property name="HandItemCrawler" value="handZombieBurningCrawler"/> <!-- override the default replacement of handZombie02 with a specific hand item -->
 	<property name="MaxHealth" value="80"/>
 	<property name="ExperienceGain" value="798"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
@@ -920,9 +941,8 @@
 	<property name="AITask-2" value="BreakBlock"/>
 	<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="5"/>
 	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer"/>
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag"/>
-	<property name="AITask-6" value="ApproachSpot"/>
-	<property name="AITask-7" value="Wander"/>
+	<property name="AITask-5" value="ApproachSpot"/>
+	<property name="AITask-6" value="Wander"/>
 	<property name="SoundRandom" value="Enemies/Acid_Puking_Hulk/hulkroam"/>
 	<property name="SoundAlert" value="Enemies/Acid_Puking_Hulk/hulkalert"/>
 	<property name="SoundAttack" value="Enemies/Acid_Puking_Hulk/hulkattack"/>
